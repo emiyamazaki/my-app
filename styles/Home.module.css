@@ -5,11 +5,27 @@
 .main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  display: ;
+  width: 100%;
+  height: 60px;
+  padding: 1rem 0;
+  background: #4e4e4e;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .footer {
