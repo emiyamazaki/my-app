@@ -1,26 +1,4 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
- 
-export default function Home() {
-    return (
-        <div className="wrap">
-            <Head>
-                <title>Next.js使ってみた</title>
-                <meta name="description" content="Next.jsのテストです。" />
-            </Head>
-            <nav>
-                <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/about">About</Link></li>
-                </ul>
-            </nav>
-            <h1>Next.js使ってみた</h1>
-        </div>
-    )
-}
-
-/* import type { NextPage } from 'next'
+import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -37,6 +15,9 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+        </h1>
+        <h1 className="text-5xl font-bold">
+          Hello world!
         </h1>
 
         <p className={styles.description}>
@@ -92,4 +73,3 @@ const Home: NextPage = () => {
 }
 
 export default Home
- */
